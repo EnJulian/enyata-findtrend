@@ -1,25 +1,39 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import Navbar from "./components/navbar.vue";
-import Heroheader from "./components/heroheader.vue";
-import Newtabs from "./components/newtabs.vue";
+import Navbar from "./components/Hero Section/navbar.vue";
+import Heroheader from "./components/Hero Section/heroheader.vue";
+import Newtabs from "./components/Middle Section/newtabs.vue";
+import DescriptionTab from "./components/Info Section/DescriptionTab.vue";
+import SocialComponent from "./components/Social Section/SocialComponent.vue";
+import PurchaseComponent from "./components/Purchase Section/PurchaseComponent.vue";
 </script>
 
 <template>
   <div class="hero-section">
-    <div class="hero-bg" />
-    <img class="btn-hero-socmed" alt="Btn hero socmed" src="src/assets/btn-hero-socmed.svg" />
+    <div class="hero-bg">
     <navbar />
+    </div>
     <heroheader/>
+    <img class="btn-hero-socmed" alt="Btn hero socmed" src="src/assets/btn-hero-socmed.svg" />
   </div>
   
-  <div class="new-tab-section">
+  <div class="middle-section">
     <div class="new-tab-bg">
       <newtabs/>
     </div>
   </div>
 
-
+<div class="info-section">
+  <DescriptionTab/>
+</div>
+  
+  <div class="social-section">
+    <SocialComponent/>
+  </div>
+  
+  <div class="purchase-section">
+    <PurchaseComponent/>
+  </div>
   
 </template>
 
@@ -30,10 +44,24 @@ import Newtabs from "./components/newtabs.vue";
   
 }
 
-.new-tab-section{
+.middle-section{
   border: 0px none;
   height: 900px;
 }
+
+.info-section{
+  
+}
+
+.social-section{
+  padding-bottom: 20px;
+}
+
+.purchase-section{
+  padding-top: 200px;
+  padding-bottom: 500px;
+}
+
 .btn-hero-socmed{
   position: absolute;
   bottom: 300px;

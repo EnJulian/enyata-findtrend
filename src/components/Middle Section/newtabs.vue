@@ -15,10 +15,10 @@
      
       
       <div class="mobile-findtrend-rectangle">
-        <img class="mobile-findtrend-img" alt="Group" src="src/assets/Group%20427321670.png" />
+        <img class="mobile-findtrend-img" alt="Group" src="../../assets/Group%20427321670.png" />
       </div>
-      <img class="mobile-img" alt="Group" src="src/assets/mobile-solution.svg" />
-      <img class="mobile-img-2" alt="Group" src="src/assets/mobile-need.svg" />
+      <img class="mobile-img" alt="Group" src="../../assets/mobile-solution.svg" />
+      <img class="mobile-img-2" alt="Group" src="../../assets/mobile-need.svg" />
 
       
     </div>
@@ -30,8 +30,8 @@
     <div class="container">
       <div class="group">
         <div class="overlap-group">
-          <img class="arrow" alt="Arrow" src="src/assets/arrow-4.svg" />
-          <img class="you-just-need-one" alt="You just need one" src="src/assets/you-just-need-one-tab-now.svg" />
+          <img class="arrow" alt="Arrow" src="../../assets/arrow-4.svg" />
+          <img class="you-just-need-one" alt="You just need one" src="../../assets/you-just-need-one-tab-now.svg" />
         </div>
       </div>
       <p class="text-wrapper">
@@ -42,7 +42,7 @@
         <div class="overlap-wrapper">
           <div class="div">
             <div class="frame">
-              <img class="img" alt="Group" src="src/assets/findtrend.svg" />
+              <img class="img" alt="Group" src="../../assets/findtrend.svg" />
               <div class="text-wrapper-2">Findtrend - Elon Musk</div>
             </div>
             <div class="rectangle" />
@@ -58,8 +58,8 @@
       <p class="p">Open new tabs is sh*t</p>
       <div class="div-wrapper">
         <div class="overlap-2">
-          <img class="arrow-2" alt="Arrow" src="src/assets/arrow-6.svg" />
-          <img class="solution-for" alt="Solution for" src="src/assets/solution-for-discover-a-trend.svg" />
+          <img class="arrow-2" alt="Arrow" src="../../assets/arrow-6.svg" />
+          <img class="solution-for" alt="Solution for" src="../../assets/solution-for-discover-a-trend.svg" />
         </div>
       </div>
     </div>

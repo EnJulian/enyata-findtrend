@@ -6,8 +6,8 @@ import { ref } from 'vue'
 
   <div class="box-mobile">
     <div class="group">
-      <img class="vector" alt="Vector" src="src/assets/findtrend.svg" />
-      <img class="icon" alt="Icon" src="src/assets/hamburger.svg" />
+      <img class="vector" alt="Vector" src="../../assets/findtrend.svg" />
+      <img class="icon" alt="Icon" src="../../assets/hamburger.svg" />
     </div>
   </div>
 
@@ -30,7 +30,7 @@ import { ref } from 'vue'
       <div class="text-wrapper-3">Findtrend</div>
       <div class="overlap-group">
         <div class="ellipse" />
-        <img class="vector" alt="Vector" src="src/assets/findtrend.svg" />
+        <img class="vector" alt="Vector" src="../../assets/findtrend.svg" />
       </div>
     </div>
   </div>
