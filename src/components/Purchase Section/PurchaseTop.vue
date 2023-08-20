@@ -24,8 +24,8 @@
   border: 0px none;
   height: 173px;
   position: relative;
-  top: 300px;
-  left: 25%;
+  top: 800px;
+  left: 23%;
 }
 
 .box .group {

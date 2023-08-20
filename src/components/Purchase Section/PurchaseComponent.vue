@@ -129,7 +129,7 @@ import PurchaseTop from "./PurchaseTop.vue";
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top:400px;
+  padding-top: 400px;
   padding-bottom: 200px;
   background-color: black;
 }
@@ -346,113 +346,11 @@ import PurchaseTop from "./PurchaseTop.vue";
   position: absolute;
   top: 125px;
   width: 296px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: black ;
-}
-
-
-.card {
-  width: 360px;
-  height: 640px;
-  margin: 0 20px;
-  background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transition: background-color 0.3s ease;
-  padding-bottom: 40px;
-}
-
-.card:hover {
-  background-color: #A8FF35;
-}
-
-.card-content {
-  padding: 20px;
-  flex-grow: 1;
-}
-
-.card-header {
-  font-size: 36px;
-  margin-bottom: 8px;
-}
-
-.card-text {
-  font-size: 18px;
-  margin-bottom: 8px;
-}
-
-.card-subtext {
-  font-size: 18px;
-  margin-bottom: 32px;
-}
-
-.card-line {
-  height: 1px;
-  width: 296px;
+ 
   background-color: #ccc;
   margin-bottom: 32px;
 }
 
-.card-section {
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 27px;
-}
 
-.icon {
-  margin-right: 10px;
-  font-size: 20px;
-}
-
-.subtext {
-  font-size: 18px;
-}
-
-.card-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  background-color: #A8FF35;
-  color: black;
-  border: none;
-  border-radius: 29px;
-  font-size: 16px;
-  text-align: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.card-button:hover {
-  background-color: black;
-  color: white;
-}
 
 </style>

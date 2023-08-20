@@ -6,6 +6,8 @@ import Newtabs from "./components/Middle Section/newtabs.vue";
 import DescriptionTab from "./components/Info Section/DescriptionTab.vue";
 import SocialComponent from "./components/Social Section/SocialComponent.vue";
 import PurchaseComponent from "./components/Purchase Section/PurchaseComponent.vue";
+import FooterComponent from "./components/Footer Section/FooterComponent.vue";
+import FooterBar from "./components/Footer Section/FooterBar.vue";
 </script>
 
 <template>
@@ -35,6 +37,12 @@ import PurchaseComponent from "./components/Purchase Section/PurchaseComponent.v
     <PurchaseComponent/>
   </div>
   
+  <div class="footer-section">
+    <FooterComponent/>
+  </div>
+  
+  <FooterBar/>
+  
 </template>
 
 <style scoped>
@@ -54,12 +62,10 @@ import PurchaseComponent from "./components/Purchase Section/PurchaseComponent.v
 }
 
 .social-section{
-  padding-bottom: 20px;
 }
 
 .purchase-section{
-  padding-top: 200px;
-  padding-bottom: 500px;
+  
 }
 
 .btn-hero-socmed{
